@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
+*
+
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Literata', sans-serif;
+}
+body
+{
+    background: rgb(211, 212, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+header 
+{
+    background: #e17c29;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #3c3736;
+}
+.container 
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_Side
+{
+    position: relative;
+    background: #e0983a;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: #525050;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about h5
+{
+    color: #161515;
+    font-weight: 300;
+}
+.about h4
+{
+    color: #363434;
+    font-weight: 300;
+}
